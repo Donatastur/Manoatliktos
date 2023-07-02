@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(251, 243, 243);
+}
+header {
+    border: 1px solid rgb(187, 174, 174);
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    margin-top: 1rem;
+background-color: white;
+}
+header img {
+    max-width: 200px;
+    padding-top: 1.5rem;
+}
+header ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+header li:last-child {
+    margin-right: 0;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
+header li a:hover {
+    text-decoration: underline;
+}
+#apie-mus {
+    border: 1px solid rgb(187, 174, 174);
+    margin: auto;
+    width: 800px;
+    min-height: 500px;
+    margin-top: 1rem;
+    background-color: white;
+    text-align: center;
+}
+#apie-mus img {
+    max-width: 800px;
+    padding-top: 0.5rem;
+}
+#apie-mus p {
+text-align: justify;
+padding: 0 3rem;
+}
+h2, h3 {
+    padding-top: 2rem;
+    text-align: center;
+}
+#produktai { border: 1px solid rgb(187, 174, 174);
+    margin: auto;
+    width: 800px;
+    min-height: 500px;
+    margin-top: 1rem;
+    background-color: white;
+    text-align: center;
+}
+.produktai img {
+    max-height: 150px;
+    width: 150px;
+    object-fit: cover;
+   padding: 0;
+}
+.produktai 
+{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.vardas {
+   font-weight: bold;
+}
+.kaina {
+    font-weight: bold;
+}
+.kontaktai {
+    margin: auto;
+    width: 800px;
+    min-height: 500px;
+    margin-top: 1rem;
+    background-color: white;
+}
+#kontaktai {
+    border: 1px solid rgb(187, 174, 174);
+    margin: auto;
+    width: 800px;
+    min-height: 500px;
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: center;
+    color: #555;
+    padding: 15px;
+}
